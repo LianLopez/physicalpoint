@@ -1,0 +1,27 @@
+.box-classroom-general{
+    background-image: url("../img/classroom.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+}
+.box-classroom{
+    background-color: rgba(88, 88, 88, 0.541);
+    margin: 15px;
+    width: 40%;
+    
+}
+@media screen and (max-width:768px){
+    .box-classroom-general{
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    }
+    .box-classroom{
+        width: 90%;
+    }
+}

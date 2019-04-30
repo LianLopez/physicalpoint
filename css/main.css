@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'regular';
+    font-style: italic;
+}
+body{
+    width: 100%;
+}
+.caja-h2-titulo{
+    background-color: black;
+    padding: 20px 0;
+    border-top: 1px orange solid;
+    border-bottom: orange 1px solid;
+}
+.h2-titulo{
+    text-align: center;
+    color: white;
+    font-size: 1.7em;
+}

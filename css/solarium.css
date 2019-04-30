@@ -1,0 +1,72 @@
+.flex-solarium{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5% 0.5%;
+    padding:1%;
+    background-color: rgba(169, 169, 169, 0.521);
+    border-radius: 35px 35px 0px 0px;
+    -moz-border-radius: 35px 35px 0px 0px;
+    -webkit-border-radius: 35px 35px 0px 0px;
+    border: 1px solid orange;
+}
+.flex-solarium2{
+    display: flex;
+    flex-direction: row;
+    margin: 0.5% 0.5%;
+    padding:1%;
+    background-color: rgba(169, 169, 169, 0.521);
+    border-radius: 0px 0px 35px 35px;
+    -moz-border-radius: 0px 0px 35px 35px;
+    -webkit-border-radius: 0px 0px 35px 35px;
+    border: 1px solid orange;
+}
+.img-solarium{
+    width: auto;
+    height: 300px;
+    border-radius: 35px 0px 0px 0px;
+    -moz-border-radius: 35px 0px 0px 0px;
+    -webkit-border-radius: 35px 0px 0px 0px;
+    
+}
+.img-solarium2{
+    width: auto;
+    height: 300px;
+    border-radius: 0px 0px 35px 0px;
+    -moz-border-radius: 0px 0px 35px 0px;
+    -webkit-border-radius: 0px 0px 35px 0px;
+    
+}
+.box-solarium{
+    background: black;
+    color: white;
+   padding: 1%;
+}
+.p-solarium{
+    font-size: 1em;
+    margin: 0px 15px;
+}
+.h2-solarium{
+    margin: 0 15px;
+}
+
+@media screen and (max-width:768px){
+    .flex-solarium{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .flex-solarium2{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .img-solarium{
+        height: 5%;
+        width: 100%;
+        margin: 15px 0px;
+    }
+    .img-solarium2{
+        height: 5%;
+        width: 100%;
+        margin: 15px 0px;
+    }
+
+}
